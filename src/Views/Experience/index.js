@@ -22,7 +22,7 @@ export default class Experience extends Component {
         return (
             <div className={"section"} style={{backgroundColor: this.state.backgroundColor}}>
                 <Title title="Experience"/>
-                <div className={"section-content flex-container-row"}>
+                <div className={"section-content flex-container-row experience-container"}>
                     <DisplayList type="experience" data={experience}/>
                 </div>
             </div>

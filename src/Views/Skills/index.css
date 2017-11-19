@@ -13,6 +13,8 @@
     .skills-container {
         display: flex;
         flex-direction: row;
+        padding-bottom: 10em;
+        padding-top: 5em;
     }
 
     .skills {

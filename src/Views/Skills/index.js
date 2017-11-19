@@ -7,8 +7,12 @@ import { skills } from './../../resources/resumeInfo';
 export default class Skills extends Component {
     constructor(props) {
         super(props);
-        this.state = { backgroundColor: props.backgroundColor };
-      }
+
+        let leftSkills = skills;
+        let rightSkills = leftSkills.splice(0, Math.floor(leftSkills.length / 2));
+
+        this.state = { leftSkills: leftSkills, rightSkills: rightSkills };
+    }
       
     componentDidMount() {
         
@@ -19,18 +23,16 @@ export default class Skills extends Component {
     }
 
     render() {
-        let rightSkills = skills;
-        let leftSkills = rightSkills.splice(0, Math.floor(rightSkills.length / 2));
 
         return (
-            <div className={"section"} style={{backgroundColor: this.state.backgroundColor}}>
+            <div className={"section"} style={{backgroundColor: this.props.backgroundColor}}>
                 <Title title="Skills"/>
                 <div className={"section-content skills-container"}>
                     <div className={"skills"}>
-                        <DisplayList type="bar" data={rightSkills}/>
+                        <DisplayList type="bar" data={this.state.rightSkills}/>
                     </div>
                     <div className={"skills"}>
-                        <DisplayList type="bar" data={leftSkills}/>
+                        <DisplayList type="bar" data={this.state.leftSkills}/>
                     </div>
                 </div>
             </div>

@@ -8,29 +8,13 @@ import { titleInfo } from './../../resources/resumeInfo';
 export default class Intro extends Component {
     constructor(props) {
         super(props);
-        this.state = { width: '0', height: '0' };
-        this.updateWindowDimensions = this.updateWindowDimensions.bind(this);
-      }
-      
-    componentDidMount() {
-        this.updateWindowDimensions();
-        window.addEventListener('resize', this.updateWindowDimensions);
-    }
-      
-    componentWillUnmount() {
-        window.removeEventListener('resize', this.updateWindowDimensions);
-    }
-    
-    updateWindowDimensions() {
-        this.setState({ width: window.innerWidth, height: window.innerHeight });
-        console.log('resize');
     }
 
     render() {
         return (
             <div>
-                <BackgroundImage width={this.state.width} height={this.state.height} src={image}/>
-                <PersonalTitle width={this.state.width} height={this.state.height} titleInfo={titleInfo}/>
+                <BackgroundImage width={this.props.width} height={this.props.height} src={image}/>
+                <PersonalTitle width={this.props.width} height={this.props.height} titleInfo={titleInfo}/>
             </div>
         );
     }

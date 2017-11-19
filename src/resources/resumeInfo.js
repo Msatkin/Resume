@@ -28,7 +28,7 @@ export let skills = [
     { "title": "Git", "progress":  80},
     { "title": "MySQL", "progress":  60},
     { "title": "UX Design", "progress":  50},
-    { "title": "Project Management", "progress":  30},
+    { "title": "Project Management", "progress":  30}
 ];
 
 export let education = [
