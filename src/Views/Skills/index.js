@@ -25,7 +25,7 @@ export default class Skills extends Component {
     render() {
 
         return (
-            <div className={"section"} style={{backgroundColor: this.props.backgroundColor}}>
+            <div className={"section"} style={{backgroundColor: this.props.backgroundColor, minHeight: this.props.height}}>
                 <Title title="Skills"/>
                 <div className={"section-content skills-container"}>
                     <div className={"skills"}>

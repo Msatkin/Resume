@@ -21,7 +21,7 @@ export default class Contact extends Component {
     render() {
         return (
             <div className={"section"} style={{backgroundColor: this.state.backgroundColor}}>
-                <Title title="Contact"/>
+                <Title title="Contact" color={"GhostWhite"}/>
                 <div className={"section-content flex-container-row"}>
                     <DisplayList type="contact" data={contact} horizontal="true"/>
                 </div>

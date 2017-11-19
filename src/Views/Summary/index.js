@@ -8,7 +8,7 @@ import image from './../../resources/Personal_Image.png';
 export default class Summary extends Component {
     render() {
         return (
-            <div id="Summary" className={"section"} style={{backgroundColor: this.props.backgroundColor, height: this.props.height}}>
+            <div id="Summary" className={"section"} style={{backgroundColor: this.props.backgroundColor, minHeight: this.props.height}}>
                 <Title title="Summary"/>
                 <div className={ "section-content flex-container-row summary-container" }>
                     <div className={"summary"}>

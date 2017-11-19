@@ -7,7 +7,7 @@ import { education } from './../../resources/resumeInfo';
 export default class Education extends Component {
     render() {
         return (
-            <div className={"section"} style={{backgroundColor: this.props.backgroundColor}}>
+            <div className={"section"} style={{backgroundColor: this.props.backgroundColor, minHeight: this.props.height}}>
                 <Title title="Education"/>
                 <div className={"section-content flex-container-row education-container"}>
                     <DisplayList type="education" data={education}/>
