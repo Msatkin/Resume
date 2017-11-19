@@ -1,0 +1,22 @@
+@media (max-width : 600px) {
+    .skills-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .skills {
+        flex: 1;
+    }
+}
+
+@media (min-width : 601px) {
+    .skills-container {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .skills {
+        flex: 1;
+        margin: 2em;
+    }
+}

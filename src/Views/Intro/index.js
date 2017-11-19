@@ -1,7 +1,9 @@
 import React, { Component } from 'react';
 import './index.css';
 import BackgroundImage from './../../Components/BackgroundImage';
-import image from './../../resources/intro.gif';
+import PersonalTitle from './../../Components/PersonalTitle';
+import image from './../../resources/Berlin3.gif';
+import { titleInfo } from './../../resources/resumeInfo';
 
 export default class Intro extends Component {
     constructor(props) {
@@ -28,6 +30,7 @@ export default class Intro extends Component {
         return (
             <div>
                 <BackgroundImage width={this.state.width} height={this.state.height} src={image}/>
+                <PersonalTitle width={this.state.width} height={this.state.height} titleInfo={titleInfo}/>
             </div>
         );
     }

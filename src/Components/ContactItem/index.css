@@ -1,0 +1,16 @@
+.contact-item-info {
+    align-items: left;
+}
+
+.contact-item-container {
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-item-image {
+    margin: 0 .25em 0 .25em;
+}
+
+.icon {
+    border-radius: 25px;
+}

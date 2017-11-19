@@ -1,0 +1,24 @@
+.display-item-title {
+    font-weight: bold;
+}
+
+.display-item-bar {
+    height: 2em;
+}
+
+.display-item-bar-progress {
+    background-color: LightSlateGray;
+    text-align: left;
+    font-weight: 500;
+}
+
+.display-item {
+    padding: .5em 1em .5em 1em;
+    height: 2em;
+}
+
+.display-item-bar-title {
+    align-self: center;
+    padding-left: .5em;
+    color: #f9f9f9;
+}

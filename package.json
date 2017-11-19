@@ -9,7 +9,9 @@
   "dependencies": {
     "gh-pages": "^1.0.0",
     "react": "^16.1.0",
-    "react-dom": "^16.1.0"
+    "react-dom": "^16.1.0",
+    "react-fontawesome": "^1.6.1",
+    "scroll-to-element": "^2.0.0"
   },
   "scripts": {
     "predeploy": "npm run build",

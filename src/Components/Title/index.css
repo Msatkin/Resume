@@ -1,0 +1,10 @@
+.title-container {
+    margin: auto;
+    width: 100%
+}
+
+.title {
+    font-size: 3em;
+    padding: .25em;
+    margin: 0;
+}

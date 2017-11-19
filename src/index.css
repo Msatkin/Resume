@@ -1,5 +1,61 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
 body {
   margin: 0;
   padding: 0;
-  font-family: sans-serif;
+  font-family: Nunito, sans-serif;
+}
+
+.flex-container-row {
+  display: flex;
+  flex-direction: row;
+}
+
+.flex-container-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex {
+  flex: 1;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.1); }
+
+.pull-left {
+  float: left;
+}
+
+@media (max-width : 600px) {
+  .section-content {
+    padding: 1em 1em 1em .5em;
+    justify-content: center;
+  }
+
+  .section {
+    padding-top: 1.5em;
+  }
+}
+
+@media (min-width : 601px) and (max-width : 900px) {
+  .section-content {
+    justify-content: center;
+  }
+
+  .section {
+    padding-top: 3em;
+  }
+}
+
+@media (min-width : 901px) {
+  .section-content {
+    padding: 1em 3em 3em 3em;
+    justify-content: center;
+  }
+
+  .section {
+    margin: 0em .25em 0em .25em;
+    padding-top: 3em;
+  }
 }
