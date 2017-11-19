@@ -24,7 +24,7 @@ export default class Main extends Component {
     
     updateWindowDimensions() {
         this.setState({ width: window.innerWidth, height: window.innerHeight });
-        console.log('resize');
+        //console.log('resize');
     }
 
     render() {

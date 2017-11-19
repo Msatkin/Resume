@@ -54,7 +54,7 @@ function getFormData() {
   data.formGoogleSheetName = form.dataset.sheet || "responses"; // default sheet name
   data.formGoogleSendEmail = form.dataset.email || ""; // no email by default
 
-  console.log(data);
+  //console.log(data);
   return data;
 }
 
@@ -78,8 +78,8 @@ function handleFormSubmit(event) {  // handles form submit withtout any jquery
     // xhr.withCredentials = true;
     xhr.setRequestHeader('Content-Type', 'application/x-www-form-urlencoded');
     xhr.onreadystatechange = function() {
-        console.log( xhr.status, xhr.statusText )
-        console.log(xhr.responseText);
+        //console.log( xhr.status, xhr.statusText )
+        //console.log(xhr.responseText);
         document.getElementById('gform').style.display = 'none'; // hide form
         document.getElementById('thankyou_message').style.display = 'block';
         document.getElementById('contact-submit').style.display = 'none';
@@ -93,7 +93,7 @@ function handleFormSubmit(event) {  // handles form submit withtout any jquery
   }
 }
 function loaded() {
-  console.log('contact form submission handler loaded successfully');
+  //console.log('contact form submission handler loaded successfully');
   // bind to the submit event of our form
   var form = document.getElementById('gform');
   form.addEventListener("submit", handleFormSubmit, false);

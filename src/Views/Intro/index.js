@@ -6,10 +6,6 @@ import image from './../../resources/Berlin3.gif';
 import { titleInfo } from './../../resources/resumeInfo';
 
 export default class Intro extends Component {
-    constructor(props) {
-        super(props);
-    }
-
     render() {
         return (
             <div>
