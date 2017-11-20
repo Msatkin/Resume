@@ -6,7 +6,7 @@ export let titleInfo = {
     "location": "Berlin, DE"
 };
 
-export let summary = "Lorem ipsum dolor sit amet, ea inani tibique eum. Et reque audire vocibus vim. Duo placerat sententiae temporibus no. Eum hinc vidisse no, te debitis blandit salutatus vis. Suscipit vivendum cu has. Delenit officiis suavitate mei ad. An eam solet apeirian, has ne sint dolore consetetur. Cum ut quod harum appetere. Sit eu augue harum, ei quo audire vidisse democritum. Omnium lobortis usu eu. Eum diam ridens id. Duo augue platonem id, contentiones delicatissimi ne ius, altera intellegebat quo et. Vim ut posse efficiendi. Eligendi officiis luptatum mea id, ius suscipit imperdiet et.";
+export let summary = "I am a fullstack developer with a passion for creating and designing applications. I began teaching myself how to develop code in grade school, and have pursued it ever since. In 2016 I attended an alternative education, a fully immersive, project based school called devCodeCamp. I chose to build my capstone project as a React-Native application because I had never designed anything for mobile or used React before, and I thought the challenge would prove my skills as a developer. This gave me the opportunity to showcase my ability to quickly teach myself a new library and show off my skills on mobile devices. After graduating at the top of my class, I was asked to build a MVP for Trailhead Clinical Strategies using React.js. Working on a team of 6 gave me insight to how a development team works and the processes required to create a product. I now live in Berlin and am looking for a position where I can use my skills to create something amazing.";
 
 export let basicInfo = [
     { "title": "Name", "text": "Maxwell Scott Atkinson" },
@@ -66,6 +66,22 @@ export let experience = [
         "position": "Signal Support Systems Specialist",
         "description": "Primarily responsible for working with battlefield signal support systems and terminal devices. This includes maintaining radio and data distribution systems, performing signal support functions and technical assistance for computer systems, providing technical assistance and training for local area networks, and maintenance for equipment, terminal devices, assigned vehicles and power generators.",
         "image": "us_army.png"
+    },
+    {
+        "name": "MynaAE",
+        "dates": "January 2017 - Febuary 2017",
+        "location": "Milwaukee, WI",
+        "position": "Developer",
+        "description": "MynaAE was made using react.js for the company Trailhead Clinical Strategies to better translate clinical practice guidelines into applications from multiple healthcare IT vendors. This two week project consisted of implementing the authoring environment for Myna. The software system is designed to standardize the guideline testing independent of the technology stack used by hundreds of different HCIT vendors.",
+        "image": "tcs.png"
+    },
+    {
+        "name": "Geochat",
+        "dates": "December 2016 - January 2017",
+        "location": "Milwaukee, WI",
+        "position": "Sole Developer",
+        "description": "GeoChat is a messaging app created for my capstone. It leaves messages in real world locations and the messages can then be viewed by others who are also in that area. It was built using React.js for android.",
+        "image": "geochat.png"
     }
 ];
 
